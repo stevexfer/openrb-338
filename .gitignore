@@ -30,3 +30,8 @@ __pycache__/
 
 # Packages built by scripts/ (task-108)
 /dist/
+
+# Local only
+/.claude
+/backlog
+/fm1/compose

@@ -1,0 +1,13 @@
+[package]
+name = "fm1pack"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "Packs the OpenRB-338 tables, drum kit and songs into the FM-1 firmware's flash blobs"
+
+[dependencies]
+rbm = { path = "../../crates/rbm" }
+rbs = { path = "../../crates/rbs" }
+orb-engine = { path = "../../crates/orb-engine" }
+
+[workspace]
